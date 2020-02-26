@@ -1,0 +1,70 @@
+<doctype html>
+<html>
+<head>
+<style>
+
+#header
+{
+background-color:steelblue;
+color:white;
+text-align:center;
+padding:5px;
+}
+
+#input
+{
+color:black;
+clear:both;
+text-align:center;
+padding:5px;
+}
+
+#footer
+{
+background-color:steelblue;
+color:white;
+clear:both;
+text-align:center;
+padding:5px;
+}
+
+</style>
+</head>
+<body>
+
+ 
+<div id="header">
+<marquee><h1>YOUTUBE</h1></marquee>
+</div>
+<center>
+ <video width="320" height="240" controls>
+      <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg>
+      <source src="/build/videos/arcnet.io(7-sec).mp4" type=video/mp4>
+    </video>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+</center>
+<div id="input">
+<marquee behavior="scroll" direction="down">VIDEO LINK ABOVE</marquee>
+
+
+</div>
+
+<table align="right">
+<h3 align="right">Registration Form</h3>
+<tr>
+<h4 align="right">Do you like this content</h4>
+</tr>
+<tr>
+<th><input type="radio" name="g" value="yes">yes
+</tr>
+<tr><th>
+ <input type="radio" name="g" value="No">No</th>
+</tr>
+<tr><th><input type="submit" value="submit">
+</tr>
+</table align="right">
+<div id="footer">
+© 2011 - 2020 youtube,a google company 
+</div>
+</body>
+</html>
